@@ -75,4 +75,14 @@ The checkbox is checked.
 
 I have not discovered a consistent workaround on how to get this setting saved. I put this bug as low priority because it shouldn't affect the functionality of the application.
 
-Note that I've tried to write a test on this bug but the checkbox is not checkable by Cypress.
+Note that I've tried to write a test on this bug but the checkbox is not checkable by Cypress. The error message is the following. Using the "force" option does not solve the issue.
+
+```
+Timed out retrying after 15050ms: cy.check() failed because this element:
+
+<input type="checkbox" id="discussion-notifications" name="discussion-notifications">
+
+is being covered by another element:
+
+<div aria-hidden="true" class="sc-bdnylx ccVqSj">...</div>
+```
