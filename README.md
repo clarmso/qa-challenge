@@ -26,7 +26,7 @@ After finishing the steps from "Getting Started", you could run the tests by the
 1. Open a terminal and ensure the current directory is the root of this project.
 1. Open Cypress by entering `yarn test:cy` on the command line.
 1. On the upper right corner of the new window, select the desired browser (Chrome, Firefox or Electron) from the dropdown menu.
-1. Click `login.spec.ts` to launch the test
+1. Click one of the file name from the list to launch a test.
 
 ## Bugs? 🐛
 
