@@ -7,5 +7,10 @@
   "defaultCommandTimeout": 15000,
   "retries": {
     "runMode": 2
+  },
+  "env": {
+    "email": "clare.m.so@gmail.com",
+    "password": "H3110W0rlD",
+    "workspace": "QA Challenge"
   }
 }

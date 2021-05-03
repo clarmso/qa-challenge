@@ -18,3 +18,12 @@
   want to login or register before you can make in-app assertions.
 
 - We use real data in our integration tests, but you're welcome to use fixtures if that's what you're used to!
+
+## Running Tests
+
+After finishing the steps from "Getting Started", you could run the tests by the following steps:
+
+1. Open a terminal and ensure the current directory is the root of this project.
+1. Open Cypress by entering `npx cypress open` on the command line.
+1. On the upper right corner of the new window, select the desired browser (Chrome, Firefox or Electron) from the dropdown menu.
+1. Click `login.spec.ts` to launch the test.
