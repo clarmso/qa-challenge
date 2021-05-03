@@ -75,7 +75,7 @@ The checkbox is checked.
 
 I have not discovered a consistent workaround on how to get this setting saved. I put this bug as low priority because it shouldn't affect the functionality of the application.
 
-Note that I've tried to write a test on this bug but the checkbox is not checkable by Cypress. The error message is the following. Using the "force" option does not solve the issue.
+Note that I've tried to write a test on this bug but the checkbox is not checkable by Cypress. The error message is the following. Using the "force" option does not solve the issue. The failing test is in `account-settings.spec.ts`.
 
 ```
 Timed out retrying after 15050ms: cy.check() failed because this element:
